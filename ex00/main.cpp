@@ -3,7 +3,6 @@
 #include <vector>
 #include <list>
 #include <deque>
-#include <algorithm>
 
 int main( void )
 {
