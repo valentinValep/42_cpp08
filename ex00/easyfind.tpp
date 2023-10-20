@@ -8,3 +8,8 @@ typename T::iterator	easyfind(T &container, int value)
 		throw NotFoundException();
 	return (it);
 }
+
+const char *NotFoundException::what() const throw()
+{
+	return "Value not found in container";
+}

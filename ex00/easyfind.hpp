@@ -9,10 +9,7 @@ typename T::iterator	easyfind(T &container, int value);
 class NotFoundException : public std::exception
 {
 	public:
-		virtual const char* what() const throw()
-		{
-			return ("Not found");
-		}
+		virtual const char* what() const throw();
 };
 
 #include "easyfind.tpp"
